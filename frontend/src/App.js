@@ -17,13 +17,14 @@ import UserEditScreen from "./screens/UserEditScreen";
 import ProductListScreen from "./screens/ProductListScreen";
 import ProductEditScreen from "./screens/ProductEditScreen";
 import OrderListScreen from "./screens/OrderListScreen";
+import "./bootstrap.min.css";
 
 const App = () => {
   return (
     <>
       <Router>
         <Header />
-        <main className="py-3">
+        <main className="m-5">
           <div>
             <Routes>
               <Route path="/" element={<HomeScreen />}></Route>
